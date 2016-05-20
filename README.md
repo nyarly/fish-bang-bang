@@ -5,8 +5,9 @@ my fingers had learned to use a subset of the history substitution.
 Most notably, when I needed to tell a program to [make me a sandwich],
 I'd `sudo !!`, and there were countless times I'd `mkdir <something>; cd !$`.
 Coming to fish, this was hard to get over.
+[make me a sandwich]: https://xkcd.com/149/
 
-This was before `abbr` became part of fish, 
+This was before `abbr` became part of fish,
 and in the discussion around how `abbr` would be implemented there was a suggestion about using key bindings to experiment with it.
 From that discussion, I took the inspiration for these bindings.
 The really nice thing about these versus `abbr` is that they expand immediately (no whitespace needed)
